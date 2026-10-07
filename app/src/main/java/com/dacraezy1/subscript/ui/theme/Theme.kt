@@ -72,8 +72,8 @@ fun SubScriptTheme(
         else -> LightColorScheme
     }
 
-    val view = LocalViewIfAvailable()
-    if (view != null && !view.isInEditMode) {
+    val view = LocalView.current
+    if (!view.isInEditMode) {
         SideEffect {
             val window = (view.context as? Activity)?.window
             if (window != null) {
@@ -88,13 +88,4 @@ fun SubScriptTheme(
         typography = Typography,
         content = content
     )
-}
-
-@Composable
-private fun LocalViewIfAvailable(): android.view.View? {
-    return try {
-        LocalView.current
-    } catch (_: Exception) {
-        null
-    }
 }
