@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SubScript</string>
+    <string name="notification_channel_name">Subscription Reminders</string>
+    <string name="notification_channel_description">Notifies you 24 hours before a subscription bill is due</string>
+    <string name="notification_title_upcoming">Upcoming Bill: %1$s</string>
+    <string name="notification_content_upcoming">%1$s is due tomorrow (%2$s%3$.2f)</string>
+</resources>

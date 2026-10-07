@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.58"
+        android:scaleY="0.58"
+        android:translateX="22.68"
+        android:translateY="22.68">
+        <!-- Receipt / Card background -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M24,14h60c4.4,0 8,3.6 8,8v64c0,4.4 -3.6,8 -8,8H24c-4.4,0 -8,-3.6 -8,-8V22c0,-4.4 3.6,-8 8,-8z" />
+        <!-- Dollar / Renewal symbol -->
+        <path
+            android:fillColor="#1565C0"
+            android:pathData="M54,30c-11,0 -20,9 -20,20s9,20 20,20 20,-9 20,-20 -9,-20 -20,-20zm0,34c-7.7,0 -14,-6.3 -14,-14s6.3,-14 14,-14 14,6.3 14,14 -6.3,14 -14,14z" />
+        <path
+            android:fillColor="#1565C0"
+            android:pathData="M52,38h4v3.1c2.1,0.5 3.8,1.8 4.4,3.7l-3.3,1.4c-0.4,-1.1 -1.4,-1.7 -2.6,-1.7 -1.6,0 -2.6,0.9 -2.6,2.1 0,1.3 1.1,1.8 3.2,2.4 2.8,0.8 4.9,2 4.9,4.7 0,2.3 -1.8,4.1 -4,4.5V72h-4v-3c-2.3,-0.5 -4.3,-2 -4.8,-4.2l3.4,-1.3c0.4,1.3 1.5,2.1 2.9,2.1 1.7,0 2.8,-1 2.8,-2.2 0,-1.4 -1.2,-2 -3.4,-2.6 -2.8,-0.9 -4.7,-2.1 -4.7,-4.6 0,-2.2 1.6,-3.9 3.7,-4.3V38z" />
+    </group>
+</vector>
