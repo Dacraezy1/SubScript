@@ -1,0 +1,9 @@
+<b>SubScript</b> is a privacy-first, local-only Android application designed to track your subscriptions, recurring memberships, and upcoming bills without relying on any cloud servers or third-party accounts.
+
+<b>Key Highlights:</b>
+• <b>Zero Internet Permission:</b> The app does not request or require network access. Your financial data stays entirely on your device.
+• <b>100% Free & Open Source (GPLv3):</b> Completely auditable, free of trackers, ads, or proprietary telemetry SDKs.
+• <b>Recurring Cost Dashboard:</b> Automatically calculates and projects your monthly recurring expenses across weekly, monthly, and yearly cycles.
+• <b>Local Reminders:</b> Native device alarms notify you 24 hours before a payment is due without requiring push notifications.
+• <b>Automatic Renewal Rollover:</b> Subscriptions advance to their next due dates upon cycle completion.
+• <b>Modern Material 3 Design:</b> Clean and responsive UI supporting system dynamic colors, light mode, and dark mode.

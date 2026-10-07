@@ -1,0 +1,39 @@
+Categories:
+  - Money
+License: GPL-3.0-or-later
+AuthorName: Dacraezy1
+WebSite: https://github.com/Dacraezy1/SubScript
+SourceCode: https://github.com/Dacraezy1/SubScript
+IssueTracker: https://github.com/Dacraezy1/SubScript/issues
+
+AutoName: SubScript
+
+Summary: Privacy-first local subscription and recurring expense tracker
+
+Description: |-
+  SubScript is a privacy-first, local-only Android application designed
+  to track subscriptions, recurring memberships, and upcoming bills without
+  relying on cloud servers, accounts, or proprietary SDKs.
+
+  Features:
+  * Zero Internet Permission: Operates entirely offline
+  * Local Storage: Uses Android Jetpack Room on-device SQLite database
+  * Local Native Alerts: Schedules reminders 24h prior via native AlarmManager
+  * Monthly Cost Projection: Normalizes weekly, monthly, and yearly cycles
+  * Material 3 UI: Dynamic colors, light & dark themes
+
+RepoType: git
+Repo: https://github.com/Dacraezy1/SubScript.git
+
+Builds:
+  - versionName: 1.0.0
+    versionCode: 1
+    commit: v1.0.0
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
+CurrentVersion: 1.0.0
+CurrentVersionCode: 1

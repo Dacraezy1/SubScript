@@ -1,0 +1,5 @@
+• Initial release of SubScript.
+• Local-first subscription management with Room database.
+• Recurring monthly expense calculation and analytics.
+• Native AlarmManager reminders 24 hours prior to due dates.
+• Offline operation with zero internet permission.
