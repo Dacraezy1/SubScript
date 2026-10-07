@@ -1,5 +1,5 @@
 Categories:
-  - Money
+  - Finance Manager
 License: GPL-3.0-or-later
 AuthorName: Dacraezy1
 WebSite: https://github.com/Dacraezy1/SubScript
@@ -33,7 +33,7 @@ Builds:
     gradle:
       - yes
 
-AutoUpdateMode: Version v%v
+AutoUpdateMode: Version
 UpdateCheckMode: Tags
 CurrentVersion: 1.0.0
 CurrentVersionCode: 1
