@@ -19,10 +19,11 @@ jobs:
         cache: 'gradle'
     - name: Grant Execute Permission for Gradle
       run: chmod +x gradlew
-    - name: Build Unsigned Release APK
+    - name: Build Release APK
       run: ./gradlew assembleRelease
     - name: Rename APK Artifact
       run: |
+        mv app/build/outputs/apk/release/app-release.apk app/build/outputs/apk/release/SubScript-${{ github.ref_name }}.apk || true
         mv app/build/outputs/apk/release/app-release-unsigned.apk app/build/outputs/apk/release/SubScript-${{ github.ref_name }}-unsigned.apk || true
     - name: Create GitHub Release and Upload Artifact
       uses: softprops/action-gh-release@v2
